@@ -13,6 +13,9 @@
 | Ghost | https://github.com/TryGhost/Ghost | publishing | active | Mature open-source publishing stack for newsletters, memberships, and editorial workflows. |
 | Quarto | https://github.com/quarto-dev/quarto-cli | publishing | active | Turns Markdown and notebooks into polished reports, articles, slides, and sites. |
 | Pagefind | https://github.com/Pagefind/pagefind | search | active | Adds static site search without a server, useful for archives, notes, and long-form libraries. |
+| Docling | https://github.com/docling-project/docling | ingestion | active | Converts PDFs, slides, and office files into structured Markdown/JSON, which is useful before editing or republishing source material. |
+| Decap CMS | https://github.com/decaporg/decap-cms | editorial-cms | active | Adds a Git-backed editorial UI for Markdown content, which is useful when non-terminal drafting or review flows become necessary. |
+| markdownlint-github | https://github.com/github/markdownlint-github | quality | active | Reuses GitHub's Markdown lint profile to keep README, article, and documentation formatting consistent across the repo. |
 
 ## Official References
 
@@ -21,9 +24,12 @@
 | Ghost Publishing Docs | https://docs.ghost.org/publishing/ | docs | active | Explains structured authoring, rich media, and API-friendly publishing flows. |
 | Quarto Publishing Docs | https://quarto.org/docs/output-formats/html-publishing | docs | active | Useful for shipping HTML reports and microsites from a Markdown-first workflow. |
 | GitHub Pages Custom Workflows | https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages | docs | active | Helpful when the content pipeline needs custom build and deploy steps. |
+| Decap CMS Editorial Workflow Docs | https://decapcms.org/docs/backends-overview/ | docs | active | Clarifies how a Git-based CMS integrates with GitHub-style storage and editorial review flows. |
+| Docling Documentation | https://docling-project.github.io/docling/ | docs | active | Useful reference for structured document conversion outputs before wiring an ingestion pipeline. |
 
 ## Fork Candidates
 
 | Name | URL | Decision | Notes |
 |---|---|---|---|
 | Zerox | https://github.com/getomni-ai/zerox | review | Promising OCR-to-Markdown ingestion layer for turning PDFs and scans into editable source material. |
+| Docling | https://github.com/docling-project/docling | review | Stronger general-purpose ingestion candidate than ad hoc converters if the pipeline needs reproducible document-to-Markdown transforms. |
